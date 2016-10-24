@@ -1,0 +1,51 @@
+﻿2013/11/01 17:24:51 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\Visual Studio 2010\Projects\puzzle\puzzle\puzzle.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\puzzle.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt game.cpp
+         game.cpp
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(333): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(359): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(359): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(386): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(389): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(394): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(397): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(408): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(411): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(423): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(426): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(426): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(488): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\visual studio 2010\projects\puzzle\puzzle\game.cpp(513): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+       ManifestResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual Studio 2010\Projects\puzzle\Debug\puzzle.exe" /INCREMENTAL /NOLOGO Dinput8.lib d3dxof.lib dxguid.lib d3d9.lib d3dx9.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\puzzle.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Visual Studio 2010\Projects\puzzle\Debug\puzzle.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual Studio 2010\Projects\puzzle\Debug\puzzle.lib" /MACHINE:X86 Debug\puzzle.exe.embed.manifest.res
+         Debug\basescene.obj
+         Debug\block.obj
+         Debug\directinput.obj
+         Debug\field.obj
+         Debug\fpscontrol.obj
+         Debug\game.obj
+         Debug\gamewindow.obj
+         Debug\lostresource.obj
+         Debug\main.obj
+         Debug\rendererbase.obj
+         Debug\scenemgr.obj
+         Debug\title.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\puzzle.exe.embed.manifest" /manifest Debug\puzzle.exe.intermediate.manifest
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         puzzle.vcxproj -> D:\Visual Studio 2010\Projects\puzzle\Debug\puzzle.exe
+       FinalizeBuildStatus:
+         ファイル "Debug\puzzle.unsuccessfulbuild" を削除しています。
+         "Debug\puzzle.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "D:\Visual Studio 2010\Projects\puzzle\puzzle\puzzle.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:14.57
